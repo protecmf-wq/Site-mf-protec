@@ -3,177 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M&F ProTec | Soluções Digitais</title>
+    <meta name="description" content="A M&F ProTec cria sites, designs, planilhas e soluções digitais sob medida para pequenos negócios e profissionais.">
+    <meta name="theme-color" content="#080808">
+    <title>M&F ProTec | Soluções digitais para o seu negócio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            M&F <span>ProTec</span>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <header class="cabecalho">
+        <div class="container cabecalho-conteudo">
+            <a class="marca" href="#inicio" aria-label="M&F ProTec — início">
+                <span class="marca-monograma">M<span>&</span>F</span>
+                <span class="marca-nome">PRO<span>TEC</span></span>
+            </a>
+            <button class="menu-botao" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="menu" id="menu-principal" aria-label="Navegação principal">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#portfolio">Portfólio</a>
+                <a href="#processo">Como funciona</a>
+            </nav>
+            <a class="botao botao-contorno cabecalho-cta" href="https://wa.me/5538984159901?text=Olá%2C%20vim%20pelo%20site%20da%20M%26F%20ProTec%20e%20gostaria%20de%20um%20orçamento." target="_blank" rel="noopener noreferrer">Pedir orçamento</a>
         </div>
-        <nav>
-            <a href="#inicio">Início</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#servicos">Serviços</a>
-            <a href="#portfolio">Portfólio</a>
-            <a href="#contato">Contato</a>
-        </nav>
-        
-        <a href="#contato" class="btn-contato">FALE CONOSCO</a>   
     </header>
-    <main> 
-        <section id="inicio" class="hero">
-            <div class="hero-conteudo">
 
-                <p  class="destaque">BEM-VINDO Á M&F PROTEC</p>
-                
-                <h1> 
-                    SOLUÇÕES DIGITAIS<br>
-                    QUE TRANSFORMAM<br>
-                    <span>SEU NEGÓCIO</span>
-                </h1>
-                <p class="descrição">
-                    Unimos tecnologia, design e estraregia para
-                    entregar resutados reais e impulsionar o
-                    crescimento da sua empresa.
-                </p>
-            
-            <div class="hero-botoes">
-                <a href="#servicos" class="btn-principal">
-                    CONHEÇA NOSSOS SERVIÇOS
-                </a>
-
-                <a href="#contato" class="btn-secundario">
-                    FALE CONOSCO
-                </a>
-
+    <main id="conteudo">
+        <section class="hero" id="inicio">
+            <div class="hero-luz hero-luz-um"></div>
+            <div class="hero-luz hero-luz-dois"></div>
+            <div class="container hero-grid">
+                <div class="hero-conteudo revelar">
+                    <p class="rotulo"><span></span> Soluções digitais sob medida</p>
+                    <h1>Sua ideia merece uma presença <em>profissional.</em></h1>
+                    <p class="hero-texto">Transformamos ideias em sites, designs e ferramentas digitais que organizam, valorizam e ajudam o seu negócio a crescer.</p>
+                    <div class="hero-botoes">
+                        <a class="botao botao-dourado" href="https://wa.me/5538984159901?text=Olá%2C%20vim%20pelo%20site%20da%20M%26F%20ProTec%20e%20gostaria%20de%20um%20orçamento." target="_blank" rel="noopener noreferrer">Solicitar orçamento <span aria-hidden="true">↗</span></a>
+                        <a class="botao botao-link" href="#portfolio">Ver nosso trabalho <span aria-hidden="true">↓</span></a>
+                    </div>
+                    <ul class="hero-beneficios" aria-label="Nossos diferenciais">
+                        <li><span>✓</span> Atendimento próximo</li>
+                        <li><span>✓</span> Projeto personalizado</li>
+                        <li><span>✓</span> Entrega profissional</li>
+                    </ul>
+                </div>
+                <div class="hero-visual revelar">
+                    <div class="orbita orbita-um"></div>
+                    <div class="orbita orbita-dois"></div>
+                    <div class="logo-moldura">
+                        <img src="img/logo.png" alt="Símbolo dourado da M&F ProTec" width="500" height="500">
+                    </div>
+                    <div class="selo selo-superior"><strong>Design</strong><span>que comunica</span></div>
+                    <div class="selo selo-inferior"><strong>+</strong><span>tecnologia e estratégia</span></div>
+                </div>
             </div>
-          
-         </div> 
-         <div class="hero-imagem">
-            <img src="img/logo.png" alt="Logo M&F ProTec">
-         </div> 
-       </section>
+        </section>
 
-       <section id="sobre" class="sobre">
-          <div class="sobre-conteudo">
-            
-            <p class="sobre-destaque"> CONHEÇA A M&F PROTEC </p>
-
-            <h2> 
-                SOLUÇÕES DIGITAIS PARA
-                <span> FAZER SEU NEGÓCIO CRESCER</span>
-            </h2>
-
-            <p class="Sobre-texto">
-                A M&F ProTec nasceu para ajudar empresas e profissionais
-                a fortalecer sua presença no mundo digital.
-                Criamos soluções modernas , profissionais e personalizados
-                para cada cliente.
-
-            </p>
-
-              
-          </div>
-
-       </section>
-
-       <section id="servicos" class="servicos">
-
-    <p class="servicos-destaque">NOSSOS SERVIÇOS</p>
-
-    <h2>
-        SOLUÇÕES PARA
-        <span>FORTALECER SUA MARCA</span>
-    </h2>
-
-    <div class="servicos-grid">
-
-        <div class="servico-card">
-            <div class="servico-icone">💻</div>
-            <h3>Sites</h3>
-            <p>Sites institucionais, landing pages e mini sites modernos e responsivos.</p>
-        </div>
-
-        <div class="servico-card">
-            <div class="servico-icone">🎨</div>
-            <h3>Design</h3>
-            <p>Logotipos, artes visuais e identidade para destacar sua empresa.</p>
-        </div>
-
-        <div class="servico-card">
-            <div class="servico-icone">📊</div>
-            <h3>Planilhas</h3>
-            <p>Planilhas profissionais para organização, controle e tomada de decisões.</p>
-        </div>
-
-        <div class="servico-card">
-            <div class="servico-icone">📱</div>
-            <h3>Instagram</h3>
-            <p>Organização de perfil, identidade visual, posts e estratégias para redes sociais.</p>
-        </div>
-
-        <div class="servico-card">
-            <div class="servico-icone">📄</div> 
-            <h3>Currículos e Documentos</h3>
-            <p>Currículos profissionais, documentos e materiais personalizados.</p>
-        </div>
-
-        <div class="servico-card">
-            <div class="servico-icone">✨</div>
-            <h3>Outros Serviços</h3>
-            <p>Convites digitais, cardápios, consultoria e outras soluções sob medida.</p>
-        </div>
-
-    </div>
-
-</section>
-
-
-<section id="portfolio" class="portfolio">
-
-    <div class="portfolio-conteudo">
-
-        <p class="portfolio-destaque">NOSSO PORTFÓLIO</p>
-
-        <h2>
-            ALGUNS DOS NOSSOS
-            <span>TRABALHOS</span>
-        </h2>
-
-        <p class="portfolio-texto">
-            Conheça alguns projetos desenvolvidos pela M&F ProTec.
-        </p>
-
-        <div class="portfolio-grid">
-
-            <div class="portfolio-card">
-                <img src="img/ruth-jpg.jpeg" alt="Site Espaço Ruth Miranda" class="portfolio-img">
-                 <h3>Criação de Sites</h3>
-
-                <p>Sites modernos, profissionais e personalizados.</p>
+        <section class="faixa">
+            <div class="container faixa-itens" aria-label="Áreas de atuação">
+                <span>Sites</span><i></i><span>Design</span><i></i><span>Planilhas</span><i></i><span>Redes sociais</span><i></i><span>Documentos</span>
             </div>
+        </section>
 
-            <div class="portfolio-card">
-                <img src="img/indentidade.jpg.jpeg" alt="Projeto de Indentidade Visual" class="portfolio-img">
-                <h3>Identidade Visual</h3>
-                <p>Logotipos e artes criadas para fortalecer marcas.</p>
+        <section class="secao sobre" id="sobre">
+            <div class="container sobre-grid">
+                <div class="secao-cabecalho revelar">
+                    <p class="rotulo"><span></span> Sobre a M&F ProTec</p>
+                    <h2>Soluções que simplificam o presente e <em>fortalecem o futuro.</em></h2>
+                </div>
+                <div class="sobre-conteudo revelar">
+                    <p>A M&F ProTec nasceu para aproximar pequenos negócios e profissionais das soluções digitais de que realmente precisam — com clareza, cuidado e identidade.</p>
+                    <p>Cada projeto é desenvolvido de forma personalizada, unindo estética, funcionalidade e atenção aos detalhes para entregar um resultado que represente a sua marca.</p>
+                    <div class="valores">
+                        <article><strong>01</strong><div><h3>Atendimento humano</h3><p>Ouvimos sua necessidade antes de criar.</p></div></article>
+                        <article><strong>02</strong><div><h3>Soluções sob medida</h3><p>Seu projeto não precisa parecer com todos os outros.</p></div></article>
+                        <article><strong>03</strong><div><h3>Cuidado em cada detalhe</h3><p>Do primeiro contato até a entrega final.</p></div></article>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <div class="portfolio-card">
-                <img src="img/planilha.jpg.jpeg" alt="Planilha Profissional" class="portfolio-img">
-                <h3>Planilhas Profissionais</h3>
-                <p>Soluções personalizadas para organização e controle.</p>
+        <section class="secao servicos" id="servicos">
+            <div class="container">
+                <div class="secao-cabecalho central revelar">
+                    <p class="rotulo"><span></span> O que fazemos</p>
+                    <h2>Soluções para sua marca <em>crescer com presença.</em></h2>
+                    <p>Serviços digitais pensados para apresentar, organizar e impulsionar o seu negócio.</p>
+                </div>
+                <div class="servicos-grid">
+                    <article class="servico-card revelar"><span class="numero">01</span><div class="icone">⌘</div><h3>Criação de sites</h3><p>Sites institucionais, landing pages e cartões digitais modernos, rápidos e responsivos.</p><a href="#contato">Quero saber mais <span>→</span></a></article>
+                    <article class="servico-card revelar"><span class="numero">02</span><div class="icone">◇</div><h3>Artes e designs</h3><p>Posts, materiais de divulgação e peças visuais alinhadas à identidade da sua marca.</p><a href="#contato">Quero saber mais <span>→</span></a></article>
+                    <article class="servico-card revelar"><span class="numero">03</span><div class="icone">▦</div><h3>Planilhas profissionais</h3><p>Controles de vendas, estoque, financeiro e rotinas criados para facilitar sua gestão.</p><a href="#contato">Quero saber mais <span>→</span></a></article>
+                    <article class="servico-card revelar"><span class="numero">04</span><div class="icone">◎</div><h3>Organização de Instagram</h3><p>Perfil, bio, destaques e feed organizados para transmitir mais confiança e profissionalismo.</p><a href="#contato">Quero saber mais <span>→</span></a></article>
+                    <article class="servico-card revelar"><span class="numero">05</span><div class="icone">A</div><h3>Logos e identidade visual</h3><p>Elementos visuais que tornam sua empresa reconhecível, coerente e marcante.</p><a href="#contato">Quero saber mais <span>→</span></a></article>
+                    <article class="servico-card revelar"><span class="numero">06</span><div class="icone">▤</div><h3>Documentos e materiais</h3><p>Currículos, cardápios, convites, certificados, contratos, orçamentos e cartões digitais.</p><a href="#contato">Quero saber mais <span>→</span></a></article>
+                </div>
             </div>
+        </section>
 
+        <section class="secao portfolio" id="portfolio">
+            <div class="container">
+                <div class="portfolio-topo revelar">
+                    <div class="secao-cabecalho">
+                        <p class="rotulo"><span></span> Projetos em destaque</p>
+                        <h2>Trabalhos feitos para <em>gerar valor.</em></h2>
+                    </div>
+                    <p>Cada entrega combina a identidade do cliente com uma solução bonita, funcional e fácil de usar.</p>
+                </div>
+                <div class="portfolio-grid">
+                    <article class="projeto revelar">
+                        <div class="projeto-imagem"><img src="img/ruth-jpg.jpeg" alt="Site criado para o Studio Ruth Miranda" loading="lazy"><span>Site institucional</span></div>
+                        <div class="projeto-info"><div><p>Projeto para beleza</p><h3>Studio Ruth Miranda</h3></div><span class="projeto-seta">↗</span></div>
+                    </article>
+                    <article class="projeto revelar">
+                        <div class="projeto-imagem"><img src="img/planilha.jpg.jpeg" alt="Planilha profissional para controle financeiro" loading="lazy"><span>Planilha profissional</span></div>
+                        <div class="projeto-info"><div><p>Organização e gestão</p><h3>Controle financeiro</h3></div><span class="projeto-seta">↗</span></div>
+                    </article>
+                    <article class="projeto revelar">
+                        <div class="projeto-imagem"><img src="img/indentidade.jpg.jpeg" alt="Identidade visual para Lumière Fotografia" loading="lazy"><span>Identidade visual</span></div>
+                        <div class="projeto-info"><div><p>Marca e posicionamento</p><h3>Lumière Fotografia</h3></div><span class="projeto-seta">↗</span></div>
+                    </article>
+                    <article class="projeto revelar">
+                        <div class="projeto-imagem"><img src="img/arte-hamburguer.jpg.jpeg" alt="Arte promocional para hamburgueria" loading="lazy"><span>Design para redes</span></div>
+                        <div class="projeto-info"><div><p>Conteúdo visual</p><h3>Arte promocional</h3></div><span class="projeto-seta">↗</span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao processo" id="processo">
+            <div class="container">
+                <div class="secao-cabecalho central revelar">
+                    <p class="rotulo"><span></span> Simples do início ao fim</p>
+                    <h2>Como tiramos seu projeto <em>do papel.</em></h2>
+                </div>
+                <div class="processo-grid">
+                    <article class="revelar"><span>1</span><h3>Conversa</h3><p>Entendemos sua ideia, suas necessidades e o objetivo do projeto.</p></article>
+                    <article class="revelar"><span>2</span><h3>Planejamento</h3><p>Organizamos conteúdo, visual, prazo e a melhor solução para você.</p></article>
+                    <article class="revelar"><span>3</span><h3>Criação</h3><p>Desenvolvemos seu projeto com cuidado e mantemos você por perto.</p></article>
+                    <article class="revelar"><span>4</span><h3>Entrega</h3><p>Revisamos os detalhes e entregamos tudo pronto para ser usado.</p></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao contato" id="contato">
+            <div class="container contato-caixa revelar">
+                <div class="contato-luz"></div>
+                <p class="rotulo"><span></span> Vamos começar?</p>
+                <h2>Seu próximo projeto pode começar <em>com uma conversa.</em></h2>
+                <p>Conte sua ideia para a gente. Vamos entender o que você precisa e preparar uma solução personalizada para o seu negócio.</p>
+                <div class="contato-acoes">
+                    <a class="botao botao-dourado" href="https://wa.me/5538984159901?text=Olá%2C%20vim%20pelo%20site%20da%20M%26F%20ProTec%20e%20gostaria%20de%20um%20orçamento." target="_blank" rel="noopener noreferrer">Falar pelo WhatsApp <span>↗</span></a>
+                    <a class="email-link" href="mailto:contato@mfprotec.com.br">contato@mfprotec.com.br</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container rodape-grid">
+            <div><a class="marca" href="#inicio"><span class="marca-monograma">M<span>&</span>F</span><span class="marca-nome">PRO<span>TEC</span></span></a><p>Soluções digitais para pequenos negócios e profissionais.</p></div>
+            <div><h3>Navegação</h3><a href="#sobre">Sobre nós</a><a href="#servicos">Serviços</a><a href="#portfolio">Portfólio</a><a href="#processo">Como funciona</a></div>
+            <div><h3>Contato</h3><a href="tel:+5538984159901">(38) 98415-9901</a><a href="mailto:contato@mfprotec.com.br">contato@mfprotec.com.br</a></div>
         </div>
+        <div class="container rodape-base"><p>© <span id="ano"></span> M&F ProTec. Todos os direitos reservados.</p><a href="#inicio">Voltar ao topo ↑</a></div>
+    </footer>
 
-    </div>
-
-</section>
-    </main>    
-    
+    <a class="whatsapp-flutuante" href="https://wa.me/5538984159901?text=Olá%2C%20vim%20pelo%20site%20da%20M%26F%20ProTec%20e%20gostaria%20de%20um%20orçamento." target="_blank" rel="noopener noreferrer" aria-label="Falar com a M&F ProTec pelo WhatsApp">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-8c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-1.9-.9-3.2-1.7-4.5-3.9-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.6-.5-.8-.5h-.7c-.2 0-.6.1-1 .5-.3.4-1.3 1.3-1.3 3.2s1.4 3.7 1.6 4c.2.3 2.7 4.1 6.6 5.8 2.5 1.1 3.5 1.2 4.8 1 1-.2 1.9-.8 2.2-1.5.3-.7.3-1.3.2-1.5-.1-.2-.4-.3-.7-.5Z"/></svg>
+    </a>
     <script src="js/script.js"></script>
-    
 </body>
 </html>
