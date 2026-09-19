@@ -35,7 +35,7 @@ function atualizarNavegacao() {
     });
 
     linksMenu.forEach((link) => {
-        link.classList.toggle('ativo', link.getAttribute('href') === `#${atual}`);
+        link.classList.toggle('ativo', link.getAttribute('aria-current') === 'page' || link.getAttribute('href') === `#${atual}`);
     });
 }
 
@@ -57,3 +57,4 @@ document.querySelectorAll('.revelar').forEach((elemento, indice) => {
 });
 
 document.querySelector('#ano').textContent = new Date().getFullYear();
+
