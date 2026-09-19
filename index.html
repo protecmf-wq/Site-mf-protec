@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
     <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
@@ -27,7 +28,7 @@
                 <a href="#inicio">Início</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#servicos">Serviços</a>
-                <a href="#portfolio">Portfólio</a>
+                <a href="portfolio.html">Portfólio</a>
                 <a href="#processo">Como funciona</a>
             </nav>
             <a class="botao botao-contorno cabecalho-cta" href="https://wa.me/5538984159901?text=Olá%2C%20vim%20pelo%20site%20da%20M%26F%20ProTec%20e%20gostaria%20de%20um%20orçamento." target="_blank" rel="noopener noreferrer">Pedir orçamento</a>
@@ -45,7 +46,7 @@
                     <p class="hero-texto">Transformamos ideias em sites, designs e ferramentas digitais que organizam, valorizam e ajudam o seu negócio a crescer.</p>
                     <div class="hero-botoes">
                         <a class="botao botao-dourado" href="https://wa.me/5538984159901?text=Olá%2C%20vim%20pelo%20site%20da%20M%26F%20ProTec%20e%20gostaria%20de%20um%20orçamento." target="_blank" rel="noopener noreferrer">Solicitar orçamento <span aria-hidden="true">↗</span></a>
-                        <a class="botao botao-link" href="#portfolio">Ver nosso trabalho <span aria-hidden="true">↓</span></a>
+                        <a class="botao botao-link" href="portfolio.html">Ver nosso trabalho <span aria-hidden="true">↗</span></a>
                     </div>
                     <ul class="hero-beneficios" aria-label="Nossos diferenciais">
                         <li><span>✓</span> Atendimento próximo</li>
@@ -117,10 +118,10 @@
                     <p>Cada entrega combina a identidade do cliente com uma solução bonita, funcional e fácil de usar.</p>
                 </div>
                 <div class="portfolio-grid">
-                    <article class="projeto revelar">
-                        <div class="projeto-imagem"><img src="img/ruth-jpg.jpeg" alt="Site criado para o Studio Ruth Miranda" loading="lazy"><span>Site institucional</span></div>
+                    <a class="projeto revelar" href="portfolio.html#studio-ruth">
+                        <div class="projeto-imagem"><img src="img/ruth-portfolio.jpg" alt="Site criado para o Studio Ruth Miranda" loading="lazy"><span>Site institucional</span></div>
                         <div class="projeto-info"><div><p>Projeto para beleza</p><h3>Studio Ruth Miranda</h3></div><span class="projeto-seta">↗</span></div>
-                    </article>
+                    </a>
                     <article class="projeto revelar">
                         <div class="projeto-imagem"><img src="img/planilha.jpg.jpeg" alt="Planilha profissional para controle financeiro" loading="lazy"><span>Planilha profissional</span></div>
                         <div class="projeto-info"><div><p>Organização e gestão</p><h3>Controle financeiro</h3></div><span class="projeto-seta">↗</span></div>
@@ -134,6 +135,7 @@
                         <div class="projeto-info"><div><p>Conteúdo visual</p><h3>Arte promocional</h3></div><span class="projeto-seta">↗</span></div>
                     </article>
                 </div>
+                <div class="portfolio-mais"><a class="botao botao-contorno" href="portfolio.html">Conheça os sites que criamos <span aria-hidden="true">↗</span></a></div>
             </div>
         </section>
 
@@ -169,7 +171,7 @@
     <footer class="rodape">
         <div class="container rodape-grid">
             <div><a class="marca" href="#inicio"><span class="marca-monograma">M<span>&</span>F</span><span class="marca-nome">PRO<span>TEC</span></span></a><p>Soluções digitais para pequenos negócios e profissionais.</p></div>
-            <div><h3>Navegação</h3><a href="#sobre">Sobre nós</a><a href="#servicos">Serviços</a><a href="#portfolio">Portfólio</a><a href="#processo">Como funciona</a></div>
+            <div><h3>Navegação</h3><a href="#sobre">Sobre nós</a><a href="#servicos">Serviços</a><a href="portfolio.html">Portfólio</a><a href="#processo">Como funciona</a></div>
             <div><h3>Contato</h3><a href="tel:+5538984159901">(38) 98415-9901</a><a href="mailto:contato@mfprotec.com.br">contato@mfprotec.com.br</a></div>
         </div>
         <div class="container rodape-base"><p>© <span id="ano"></span> M&F ProTec. Todos os direitos reservados.</p><a href="#inicio">Voltar ao topo ↑</a></div>
@@ -181,3 +183,4 @@
     <script src="js/script.js"></script>
 </body>
 </html>
+
